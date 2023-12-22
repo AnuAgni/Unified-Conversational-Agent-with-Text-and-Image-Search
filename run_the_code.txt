@@ -1,0 +1,29 @@
+To run the codebase go through the following code for accurately getting the desired output:
+
+Step 1:
+Firstly unzip the folder and get inside the folder.
+
+Step 2:
+Open CMD in that folder and type the following command for creating the virtual environment:
+python -m venv image_venv
+
+Step 3:
+Once the command runs successfully, open the folder in VSCode. You can observe one folder inside by the name of image_venv
+
+Step 4:
+Open the image_venv folder, go inside Scripts, copy the path of activate.bat and paste the same in cmd and press enter.
+This way we shall enter into the virtual environment
+
+Step 5:
+Write down the following command in CMD to install all the necessary dependencies:
+pip install -r requirements.txt
+
+Step 6:
+Once all the dependencies are downloaded, then the code is ready to run.
+There are two files:
+test.ipynb: this file is the test file where all the functions are running and we can visualize the outputs, make changes and test it vigourously before passing the same onto production code.
+main.py: this is the primary code file that compiles all the functions and is readily available to display the output
+
+Step 7: 
+To run the code and see the outputs for the POC, run the following command in CMD:
+streamlit run main.py

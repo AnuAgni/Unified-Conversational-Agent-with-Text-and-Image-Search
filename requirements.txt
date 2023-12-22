@@ -1,0 +1,6 @@
+python-dotenv
+setuptools
+llama-index
+matplotlib
+Pillow
+streamlit
